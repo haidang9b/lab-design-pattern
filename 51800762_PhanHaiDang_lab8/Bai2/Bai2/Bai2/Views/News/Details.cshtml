@@ -1,0 +1,13 @@
+﻿@model Bai2.Models.NewsLocal
+
+@{
+    ViewBag.Title = "Chi tiết " + Model.newsTitle;
+}
+
+<h2> @Html.DisplayFor(model => model.newsTitle)</h2>
+<br />
+<div>
+    <p>
+        @Html.DisplayFor(model => model.newsContent)
+    </p>
+</div>

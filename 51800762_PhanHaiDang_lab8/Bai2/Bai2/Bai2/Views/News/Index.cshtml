@@ -1,0 +1,36 @@
+﻿@model Bai2.Models.NewsViewModel
+
+@{
+    ViewBag.Title = "Danh sách thể loại";
+}
+
+
+
+<div>
+    <form action="/news/index">
+        Chọn nguồn đọc
+        <label><input type="radio" value="0" name="source" onclick="this.form.submit()" />Local news</label>
+        <label><input type="radio" value="1" name="source" onclick="this.form.submit()" />Thanh Nien news</label>
+        <label><input type="radio" value="2" name="source" onclick="this.form.submit()" />VNExpress news</label>
+    </form>
+</div>
+
+<div class="jumbotron">
+    <h2>Danh sách thể loại</h2>
+    @foreach (var cat in Model.categories)
+    {
+        <a href="/News/Index?id=@cat.categoryId">@cat.categoryName</a>
+    }
+</div>
+
+@foreach (var news in Model.news)
+{
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="text-success">@news.newsTitle</h4>
+            <p class="sort-content">@news.newsContent</p>
+            <a href="/News/details?id=@news.newsId">Xem thêm</a>
+        </div>
+    </div>
+    <hr/>
+}

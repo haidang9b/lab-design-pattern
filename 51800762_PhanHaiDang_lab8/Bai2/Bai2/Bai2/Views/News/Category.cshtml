@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Bai2.Models.NewsLocal>
+
+@{
+    ViewBag.Title = "Danh sách tin tức";
+}
+
+<h2>Danh sách tin tức</h2>
+
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+</p>
+
+<table class="table table-striped table-striped">
+    <tr>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.newsId)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.newsTitle)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.newsContent)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.newsId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.newsTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.newsContent)
+        </td>
+@*        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.newsId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.newsId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.newsId })
+        </td>*@
+    </tr>
+}
+
+</table>

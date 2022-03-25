@@ -1,0 +1,7 @@
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab6\Exercise1\Exercise1\Exercise1\bin\Debug\Exercise1.exe.config
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab6\Exercise1\Exercise1\Exercise1\bin\Debug\Exercise1.exe
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab6\Exercise1\Exercise1\Exercise1\bin\Debug\Exercise1.pdb
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab6\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.csproj.AssemblyReference.cache
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab6\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.csproj.CoreCompileInputs.cache
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab6\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.exe
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab6\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.pdb

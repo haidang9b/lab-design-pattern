@@ -1,0 +1,7 @@
+D:\Java\Design Pattern\51800762_PhanHaiDang_lab8\Bai1\Bai1\Bai1\bin\Debug\Bai1.exe.config
+D:\Java\Design Pattern\51800762_PhanHaiDang_lab8\Bai1\Bai1\Bai1\bin\Debug\Bai1.exe
+D:\Java\Design Pattern\51800762_PhanHaiDang_lab8\Bai1\Bai1\Bai1\bin\Debug\Bai1.pdb
+D:\Java\Design Pattern\51800762_PhanHaiDang_lab8\Bai1\Bai1\Bai1\obj\Debug\Bai1.csproj.AssemblyReference.cache
+D:\Java\Design Pattern\51800762_PhanHaiDang_lab8\Bai1\Bai1\Bai1\obj\Debug\Bai1.csproj.CoreCompileInputs.cache
+D:\Java\Design Pattern\51800762_PhanHaiDang_lab8\Bai1\Bai1\Bai1\obj\Debug\Bai1.exe
+D:\Java\Design Pattern\51800762_PhanHaiDang_lab8\Bai1\Bai1\Bai1\obj\Debug\Bai1.pdb

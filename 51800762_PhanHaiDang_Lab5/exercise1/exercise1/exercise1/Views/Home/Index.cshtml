@@ -1,0 +1,92 @@
+﻿@model  IEnumerable < exercise1.Models.Student>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>HỆ THỐNG SINH VIÊN</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div>
+            @Html.ActionLink("Thêm sinh viên", "AddSV", null, new { @class = "btn btn-success" })
+            
+        </div>
+        <br>
+        <table class="table table-striped">
+            <tr>
+                <th>
+                    MSSV
+                </th>
+                <th>
+                    Họ tên
+                </th>
+                <th>
+                    Ngày sinh
+                </th>
+                <th>
+                    Lớp
+                </th>
+                <th>
+                    Hành động
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr id="@item.MSSV">
+                    <td>
+                        @item.MSSV
+                    </td>
+                    <td>
+                        @item.HoTen
+                    </td>
+                    <td>
+                        @item.NgaySinh
+                    </td>
+                    <td>
+                        @item.Lop
+                    </td>
+                    <td>
+                        @Html.ActionLink("Cập nhật", "EditSv", new { id = item.MSSV }, new { @class = "btn btn-info" }) |
+                        <button class="btn btn-danger btn-remove" data-id="@item.MSSV" data-name="@Html.DisplayFor(modelItem => item.HoTen)">Xóa</button>
+                    </td>
+                </tr>
+            }
+        </table>
+
+    </div>
+</div>
+<script>
+    window.onload = () => {
+        $('td .btn-remove').click(e => {
+            var mssv = $(e.target).data('id')
+            var hoten = $(e.target).data('name')
+
+            if (confirm("Bạn có muốn xóa sinh viên MSSV: " + mssv + " - Họ và tên: " + hoten)) {
+                removeStudent(mssv);
+            }
+        })
+
+        async function removeStudent(id) {
+            await fetch("/Home/DeleteSv/" + id + "/", {
+                method: 'POST'
+            }).then(Response => {
+                if (Response.status == 200) {
+                    Response.json().then(data => {
+                        if (data.success) {
+                            alert("Xóa sinh viên thành công")
+                            $("table #" + id).remove();
+                        }
+                        else {
+                            alert(data.message)
+                        }
+
+                    })
+                }
+            })
+        }
+    }
+</script>

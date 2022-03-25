@@ -1,0 +1,10 @@
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab3\exercise2\exercise2\obj\Debug\exercise2.csproj.AssemblyReference.cache
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab3\exercise2\exercise2\obj\Debug\exercise2.Form1.resources
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab3\exercise2\exercise2\obj\Debug\exercise2.Properties.Resources.resources
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab3\exercise2\exercise2\obj\Debug\exercise2.csproj.GenerateResource.cache
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab3\exercise2\exercise2\obj\Debug\exercise2.csproj.CoreCompileInputs.cache
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab3\exercise2\exercise2\bin\Debug\exercise2.exe.config
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab3\exercise2\exercise2\bin\Debug\exercise2.exe
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab3\exercise2\exercise2\bin\Debug\exercise2.pdb
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab3\exercise2\exercise2\obj\Debug\exercise2.exe
+D:\Java\Design Pattern\51800762_PhanHaiDang_Lab3\exercise2\exercise2\obj\Debug\exercise2.pdb
